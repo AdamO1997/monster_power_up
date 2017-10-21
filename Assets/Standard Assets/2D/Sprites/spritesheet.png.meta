@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: 55c4cf14e5aa8374b9d53c63ce710114
-timeCreated: 1508586931
+timeCreated: 1508593439
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: tree level 1
     21300002: seed
+    21300004: grass platform
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -151,7 +152,7 @@ TextureImporter:
         width: 2764
         height: 2672
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,6 +165,20 @@ TextureImporter:
         y: 26796
         width: 1002
         height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grass platform
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19423
+        width: 30000
+        height: 3856
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -7,7 +7,6 @@ public class projectileController : MonoBehaviour {
     public float speed;
     private Rigidbody2D rb;
     public GameObject player;
-
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -15,11 +14,12 @@ public class projectileController : MonoBehaviour {
         if(player.transform.localScale.x < 0)
         {
             speed = -speed;
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         rb.velocity = new Vector2(speed, rb.velocity.y);
 	}
 
