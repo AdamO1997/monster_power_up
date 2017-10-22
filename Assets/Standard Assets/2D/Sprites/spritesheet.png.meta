@@ -1,12 +1,21 @@
 fileFormatVersion: 2
 guid: 55c4cf14e5aa8374b9d53c63ce710114
-timeCreated: 1508593439
+timeCreated: 1508674697
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: tree level 1
     21300002: seed
     21300004: grass platform
+    21300006: spritesheet_0
+    21300008: tree
+    21300010: bullet
+    21300012: tree level 2
+    21300014: tree level 3
+    21300016: apple
+    21300018: vine
+    21300020: spritesheet_1
+    21300022: rocket
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -180,7 +189,133 @@ TextureImporter:
         width: 30000
         height: 3856
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 7760
+        y: 24606
+        width: 4228
+        height: 4960
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tree
+      rect:
+        serializedVersion: 2
+        x: 20945
+        y: 9288
+        width: 8877
+        height: 8154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bullet
+      rect:
+        serializedVersion: 2
+        x: 12347
+        y: 26057
+        width: 1033
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tree level 2
+      rect:
+        serializedVersion: 2
+        x: 14348
+        y: 23898
+        width: 3896
+        height: 5698
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tree level 3
+      rect:
+        serializedVersion: 2
+        x: 5191
+        y: 11992
+        width: 6198
+        height: 6685
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: apple
+      rect:
+        serializedVersion: 2
+        x: 13018
+        y: 16101
+        width: 947
+        height: 1197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: vine
+      rect:
+        serializedVersion: 2
+        x: 12670
+        y: 14764
+        width: 1713
+        height: 891
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 15443
+        y: 9086
+        width: 3674
+        height: 8684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rocket
+      rect:
+        serializedVersion: 2
+        x: 12019
+        y: 12926
+        width: 2031
+        height: 779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

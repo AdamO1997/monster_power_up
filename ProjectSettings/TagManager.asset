@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - seed
+  - enemy
+  - plz
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,7 @@ public class projectileController : MonoBehaviour {
     public float speed;
     private Rigidbody2D rb;
     public GameObject player;
+    public float damage=50;
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -25,6 +26,7 @@ public class projectileController : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("plz")) return;
         Destroy(gameObject);
     }
 }
